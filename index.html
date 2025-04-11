@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Jurassic World - Bienvenido</title>
+</head>
+<body style="background-color: #e0f7fa; font-family: Arial, sans-serif;">
+
+    <!-- Encabezado -->
+    <h1 style="text-align: center; color: #00796b;">¡Bienvenido a Jurassic World!</h1>
+    <h2 style="text-align: center; color: #004d40;">Explora un mundo donde los dinosaurios vuelven a la vida.</h2>
+
+    <!-- Multimedia -->
+    <div style="text-align: center; margin: 20px;">
+        <img src="imagenes/jw.png" alt="Jurassic World Poster" width="300" style="border: 4px solid #004d40;">
+    </div>
+
+    <div style="text-align: center; margin: 20px;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/RFinNxS5KN4" alt=""jurassicworld" width="560" style="border: 4px solid #058872;"
+        title="Jurassic World Trailer" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div style="text-align: center; margin: 20px;">
+        <audio controls>
+            <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg">
+            Tu navegador no soporta audio HTML5.
+        </audio>
+    </div>
+
+    <!-- Enlaces de navegación -->
+    <nav style="text-align: center; margin: 20px;">
+        <a href="#contacto" style="color: #00695c; font-weight: bold; text-decoration: none; margin: 10px;">Contacto</a>
+        <a href="#sobre-mi" style="color: #ff5722; font-weight: bold; text-decoration: none; margin: 10px;">Sobre mí</a>
+    </nav>
+
+    <!-- Contenido informativo -->
+    <section style="margin: 40px; background-color: #b2ebf2; padding: 20px; border-radius: 10px;">
+        <p>
+            En <strong>Jurassic World</strong> podrás vivir una experiencia <em>única</em> rodeado de criaturas 
+            prehistóricas. Nuestro parque ha sido <mark>revolucionado</mark> para ofrecerte una visita inolvidable. 
+            Ya no solo verás dinosaurios, sino que también podrás <del>alimentarlos manualmente</del>
+            observar su comportamiento natural en un entorno seguro.
+        </p>
+        <blockquote style="color: #004d40;">"La vida siempre encuentra el camino." - Dr. Ian Malcolm</blockquote>
+    </section>
+
+    <!-- Lista de tecnologías o lenguajes -->
+    <section style="margin: 40px;">
+        <h3 style="color: #00796b;">Tecnologías que usamos en Jurassic World:</h3>
+        <ul style="color: #004d40;">
+            <li>Genética Avanzada</li>
+            <li>Robótica</li>
+            <li>Inteligencia Artificial</li>
+            <li>Inegeria Avanzada</li>
+        </ul>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section id="contacto" style="margin: 40px; background-color: #e0f2f1; padding: 20px; border-radius: 10px;">
+        <h3 style="color: #00796b;">Contáctanos</h3>
+        <form action="mailto:contacto@jurassicworld.com" method="post" enctype="text/plain">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required style="margin-bottom: 10px; width: 100%;"><br>
+
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" required style="margin-bottom: 10px; width: 100%;"><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" required style="margin-bottom: 10px; width: 100%;"></textarea><br>
+
+            <button type="submit" style="background-color: #00796b; color: white; border: none; padding: 10px 20px; border-radius: 5px;">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" style="margin: 40px; background-color: #b2dfdb; padding: 20px; border-radius: 10px;">
+        <h3 style="color: #00796b;">Sobre el equipo de Jurassic World</h3>
+        <p>Somos un equipo multidisciplinario de científicos, ingenieros y expertos en seguridad apasionados por traer de vuelta a la vida a los increíbles dinosaurios 
+         Los Científicos y cuidadores son <mark>Claire Dearing</mark> ella es la <strong>Jefa de operaciones y científica corporativa del parque</strong><mark> Owen Grady</mark> es el <strong> Cuidador de raptores </strong> de jurassic world ,area de personal de seguridad se encuentra <mark>Vic Hoskins</mark> que es el <strong>Jefe de seguridad
+         y <mark>Katashi Hamada</mark> <strong>Jefe de seguridad del equipo ACU</strong>
+         </strong>  de InGen.</p>
+        <div style="display: flex; gap: 20px;">
+         <img src="imagenes/images.jpg" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+         <img src="imagenes/Claire_Dearing_(Bryce_Dallas_Howard).jpg" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+         <img src="imagenes/Vic_Hoskins.png" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+         <img src="imagenes/KHamada.png" style="border-radius: 50%; width: 150px; height: 150px; object-fit: cover;">
+       </div>
+    </section>
+
+    <!-- Mapa de Google Maps -->
+    <section style="margin: 40px; text-align: center;">
+        <h3 style="color: #00796b;">Encuéntranos</h3>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14625.20878267608!2d-84.18473175!3d9.963221049999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0f9ec0a58f3a7%3A0xe4b3a4c9248d8244!2sIsla%20Nublar!5e0!3m2!1ses!2scr!4v1616107254223!5m2!1ses!2scr" 
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+    </section>
+
+</body>
+</html>
